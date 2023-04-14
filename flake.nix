@@ -27,11 +27,11 @@
             # the path to your home.nix.
             modules = [
                 ./home.nix
-                ./home.d/desktop.nix
-                ./home.d/fonts.nix
-                ./home.d/terminal.nix
-                ./home.d/input.nix
-                ./home.d/theme.nix
+                ./mixins.d/base/gui.nix
+                ./mixins.d/base/fonts.nix
+                ./mixins.d/base/terminal.nix
+                ./mixins.d/base/input.nix
+                ./mixins.d/base/theme.nix
             ];
         });
       };
